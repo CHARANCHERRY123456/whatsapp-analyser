@@ -20,7 +20,7 @@ def preprocess(data , pattern=24):
             users.append(entry[1])
             messages.append(entry[2])
         else: # if it is notification chat without user name
-            users.append("group notification")
+            users.append("notification")
             messages.append(entry[0])
     df["user"] = users
     df["message"] = messages
