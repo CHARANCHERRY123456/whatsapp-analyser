@@ -1,3 +1,6 @@
+# 05/05/2021, 20:39 - Balaji: Emo ra nenu Inka cheyaledu avi
+# example message format
+
 import re
 import pandas as pd
 def preprocess(data , pattern=24):
@@ -10,11 +13,11 @@ def preprocess(data , pattern=24):
         "user_message": messages,
         "message_date": dates,
     })
-    df["message_date"] = pd.to_datetime(df["message_date"], format="%d/%m/%Y, %H:%M - ")
-    df.rename(columns={"message_date": "date"}, inplace=True)
+    df["date"] = pd.to_datetime(df["message_date"], format="%d/%m/%Y, %H:%M - ")
     users = []
     messages = []
     for message in df["user_message"]:
+        # split by : and split to user , message
         entry = re.split("([\w\W]+?):\s",message)
         if entry[1:]: # if it is user message (uname : message)
             users.append(entry[1])
@@ -34,5 +37,16 @@ def preprocess(data , pattern=24):
     df["day_name"] = df["date"].dt.day_name()
     df["hour"] = df["date"].dt.hour
     df["minute"] = df["date"].dt.minute
+
+    period = []
+    for hour in df['hour']:
+        if hour == 23:
+            period.append(str(hour) + "-" + str('00'))
+        elif hour == 0:
+            period.append(str('00') + "-" + str(hour + 1))
+        else:
+            period.append(str(hour) + "-" + str(hour + 1))
+
+    df['period'] = period
 
     return df
