@@ -48,5 +48,5 @@ def preprocess(data , pattern=24):
             period.append(str(hour) + "-" + str(hour + 1))
 
     df['period'] = period
-
+    
     return df

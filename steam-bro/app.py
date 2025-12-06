@@ -15,6 +15,7 @@ if uploaded_file is not None:
     data = bytes_data.decode("utf-8")
 
     df = preprocessor.preprocess(data)
+    data = (list(zip(df["user"].to_list() , df["message"].to_list() , df["date"].to_list() )))
     st.dataframe(df)
 
     # fetching unique users
