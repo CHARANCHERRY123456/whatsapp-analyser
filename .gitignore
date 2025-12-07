@@ -1,3 +1,38 @@
 WhatsApp Chat with Lokesh.txt
 WhatsApp Chat with Insomniacs.txt
 WhatsApp Chat with Charan  Rkv.txt
+
+# Python/artifacts
+__pycache__/
+*.py[cod]
+*.so
+*.pyc
+
+# Virtual env
+venv/
+
+# IPython/Jupyter
+.ipynb_checkpoints
+
+# Streamlit/plots/logs
+*.log
+*.png
+*.svg
+
+# RAG project outputs in steam-bro/rag-src
+/steam-bro/rag-src/**/*.txt
+/steam-bro/rag-src/*.txt
+/steam-bro/rag-src/**/output_*.txt
+/steam-bro/rag-src/**/generated_*.txt
+/steam-bro/rag-src/**/cache/
+
+# Hugging Face / model caches
+.cache/
+transformers_cache/
+hf_home/
+
+# OS files
+.DS_Store
+thumbs.db
+
+

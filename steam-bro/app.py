@@ -2,6 +2,7 @@ import streamlit as st
 import preprocessor , helper
 import matplotlib.pyplot as plt
 import seaborn as sns
+from rag_src.main import RAG
 
 
 st.sidebar.title("Whats app analyser")
@@ -15,7 +16,7 @@ if uploaded_file is not None:
     data = bytes_data.decode("utf-8")
 
     df = preprocessor.preprocess(data)
-    data = (list(zip(df["user"].to_list() , df["message"].to_list() , df["date"].to_list() )))
+    rag = RAG((list(zip(df["user"].to_list() , df["message"].to_list() , df["date"].to_list() ))))
     st.dataframe(df)
 
     # fetching unique users
