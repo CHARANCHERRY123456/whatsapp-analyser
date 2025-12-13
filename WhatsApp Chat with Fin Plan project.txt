@@ -1,0 +1,1029 @@
+24/11/2025, 11:17 am - Messages and calls are end-to-end encrypted. Only people in this chat can read, listen to, or share them. Learn more.
+22/08/2025, 11:11 am - Nishit Sir Internship Kibbs Ai created group "Fin Plan project"
+24/11/2025, 11:17 am - Nishit Sir Internship Kibbs Ai added you
+24/11/2025, 11:17 am - Nishit Sir Internship Kibbs Ai: Hey @⁨I am Charan⁩ 
+
+Lets keep all the discussion here:
+24/11/2025, 11:18 am - Nishit Sir Internship Kibbs Ai: Install this project: https://github.com/KIPPS-AI/personal_financial_planner/
+24/11/2025, 11:18 am - Nishit Sir Internship Kibbs Ai: @⁨Akshit Kibbs⁩ Please provide him all .env
+24/11/2025, 11:18 am - I am Charan: Thank you
+24/11/2025, 11:19 am - Akshit Kibbs: NEXT_PUBLIC_API_URL=http://localhost:8000/api/v1
+
+put this in .env inside wealth-management
+24/11/2025, 11:32 am - I am Charan: You deleted this message
+24/11/2025, 12:03 pm - Akshit Kibbs: Updated Creds:
+
+Here is the test account for:
+
+https://finplanner.clientassociates.com/
+manager: manager+test@ca.com
+associates@client@321
+
+Member: jincy@ca.com
+associates@client@321
+
+Admin URL: https://finplanner-admin.clientassociates.com/ 
+admin@ca.com
+password: associates@client@321
+24/11/2025, 12:34 pm - I am Charan: <Media omitted>
+24/11/2025, 12:45 pm - Nishit Sir Internship Kibbs Ai: Correct. @⁨I am Charan⁩ can you do that on frontend itself
+24/11/2025, 1:31 pm - I am Charan: Yes sir, first I’ll focus on understanding the codebase, and after that I’ll fix it.
+24/11/2025, 2:19 pm - Nishit Sir Internship Kibbs Ai: Any update?
+24/11/2025, 2:21 pm - I am Charan: i have checked the entire website how the flow works and i have understood project in the pov of "user"
+
+and now i started analysing the code base backend , sir <This message was edited>
+24/11/2025, 2:21 pm - Akshit Kibbs: Good if you are stucked let me know I will help you out
+24/11/2025, 2:22 pm - I am Charan: yeah for sure sir
+24/11/2025, 2:57 pm - Nishit Sir Internship Kibbs Ai: @⁨Akshit Kibbs⁩ any Share PPT error fix. And have we completed the USD changes?
+24/11/2025, 3:02 pm - Akshit Kibbs: it will take some time. I am on it
+24/11/2025, 3:53 pm - Akshit Kibbs: https://github.com/KIPPS-AI/personal_financial_planner/pull/57
+ppt fix pr
+24/11/2025, 3:56 pm - Nishit Sir Internship Kibbs Ai: @⁨Akshit Kibbs⁩ USD thing is done right?
+24/11/2025, 3:57 pm - Akshit Kibbs: almost done
+24/11/2025, 3:57 pm - Nishit Sir Internship Kibbs Ai: ok
+24/11/2025, 7:24 pm - Akshit Kibbs: https://github.com/KIPPS-AI/personal_financial_planner/pull/58
+24/11/2025, 7:25 pm - Akshit Kibbs: i tried to test all aspects let me know if any changes here
+24/11/2025, 7:42 pm - Nishit Sir Internship Kibbs Ai: @⁨I am Charan⁩
+24/11/2025, 7:42 pm - I am Charan: okay sir  i will complete it
+24/11/2025, 8:04 pm - I am Charan: done the task sir
+24/11/2025, 8:04 pm - Nishit Sir Internship Kibbs Ai: Please raise a pr
+24/11/2025, 8:04 pm - Nishit Sir Internship Kibbs Ai: And @⁨Akshit Kibbs⁩ review it
+24/11/2025, 8:04 pm - I am Charan: <Media omitted>
+24/11/2025, 8:06 pm - Akshit Kibbs: Raise pr and send it to me
+24/11/2025, 8:06 pm - I am Charan: okay sir
+24/11/2025, 8:16 pm - I am Charan: https://github.com/KIPPS-AI/personal_financial_planner/pull/59
+24/11/2025, 9:56 pm - Akshit Kibbs: @⁨I am Charan⁩ check your pr again you have just introduced final submit on next button. this is totally wrong 
+keep these things while you change something.
+1. dont change the existing flow
+2. always test the changes you have done <This message was edited>
+24/11/2025, 9:57 pm - I am Charan: yeah i have just observed and woring on it sir
+24/11/2025, 9:57 pm - Akshit Kibbs: good if you need any help that how should you do that let me know
+24/11/2025, 10:01 pm - Akshit Kibbs: https://github.com/KIPPS-AI/personal_financial_planner/pull/60
+@⁨Nishit Sir Internship Kibbs Ai⁩ 
+small fix
+24/11/2025, 10:02 pm - Nishit Sir Internship Kibbs Ai: Checking
+24/11/2025, 10:09 pm - Nishit Sir Internship Kibbs Ai: Merged
+24/11/2025, 10:09 pm - Nishit Sir Internship Kibbs Ai: Deployed
+25/11/2025, 7:39 am - I am Charan: https://github.com/KIPPS-AI/personal_financial_planner/pull/61
+Added the functionality of
+preventing a un validated next page click
+ensure age to be > 0
+25/11/2025, 11:46 am - Nishit Sir Internship Kibbs Ai: Hey guys
+25/11/2025, 11:46 am - Nishit Sir Internship Kibbs Ai: @⁨I am Charan⁩ @⁨Akshit Kibbs⁩ On which tasks you are working?
+25/11/2025, 11:47 am - Akshit Kibbs: i am working on some bugs and testing
+25/11/2025, 11:48 am - Nishit Sir Internship Kibbs Ai: Pending issues:
+1. I am able to enter 6 digits in the “Year” field for DOB instead of limiting it to a 4-digit year.
+2. ⁠If “Recurring” is selected as No, the Frequency field should not be displayed.
+25/11/2025, 11:57 am - Nishit Sir Internship Kibbs Ai: @⁨I am Charan⁩ ?
+25/11/2025, 11:57 am - I am Charan: okay i will solve them and raise pr
+25/11/2025, 12:02 pm - Nishit Sir Internship Kibbs Ai: There is a error showing at the time of loading risk profile questions!
+25/11/2025, 12:03 pm - Akshit Kibbs: ??
+25/11/2025, 12:04 pm - Nishit Sir Internship Kibbs Ai: Try to load risk profile question on onboarding stag
+25/11/2025, 12:05 pm - Nishit Sir Internship Kibbs Ai: You will see “Error fetching” text first and then question loads
+25/11/2025, 12:06 pm - Nishit Sir Internship Kibbs Ai: Guys are we join daily standup link
+25/11/2025, 12:07 pm - Nishit Sir Internship Kibbs Ai: https://meet.google.com/zyr-fpff-cea
+25/11/2025, 12:09 pm - I am Charan: i have joined today and gave my update on task
+25/11/2025, 12:10 pm - Nishit Sir Internship Kibbs Ai: Join again
+25/11/2025, 12:10 pm - I am Charan: okay
+25/11/2025, 12:17 pm - I am Charan: <Media omitted>
+25/11/2025, 12:17 pm - I am Charan: <Media omitted>
+25/11/2025, 12:18 pm - Nishit Sir Internship Kibbs Ai: Make it drop-down from 2000 to 2090
+25/11/2025, 12:18 pm - Nishit Sir Internship Kibbs Ai: Make retirement age from 20-100
+25/11/2025, 12:18 pm - Nishit Sir Internship Kibbs Ai: Dropdown
+25/11/2025, 12:19 pm - Nishit Sir Internship Kibbs Ai: Retirement age should be dropdown
+25/11/2025, 12:31 pm - Akshit Kibbs: https://github.com/KIPPS-AI/personal_financial_planner/pull/64
+25/11/2025, 12:31 pm - Akshit Kibbs: merge this pr
+25/11/2025, 12:31 pm - Akshit Kibbs: i will test then
+25/11/2025, 12:42 pm - Akshit Kibbs: Is it deployed ?
+25/11/2025, 12:44 pm - Nishit Sir Internship Kibbs Ai: done
+25/11/2025, 12:44 pm - Nishit Sir Internship Kibbs Ai: @⁨Akshit Kibbs⁩ Let me know If its working or throwing error
+25/11/2025, 12:44 pm - Akshit Kibbs: yeah worked 😊
+25/11/2025, 12:45 pm - Nishit Sir Internship Kibbs Ai: Amazing!!
+25/11/2025, 12:48 pm - Akshit Kibbs: https://github.com/KIPPS-AI/personal_financial_planner/pull/65
+25/11/2025, 12:48 pm - Akshit Kibbs: fix
+25/11/2025, 12:49 pm - Akshit Kibbs: https://github.com/KIPPS-AI/personal_financial_planner/pull/63
+25/11/2025, 12:49 pm - Akshit Kibbs: merge this also
+25/11/2025, 12:57 pm - Nishit Sir Internship Kibbs Ai: Merged and deployed
+25/11/2025, 12:58 pm - Nishit Sir Internship Kibbs Ai: @⁨I am Charan⁩ I can see your Pr as well. Should we merge that?
+25/11/2025, 12:59 pm - I am Charan: Yeah merge it
+25/11/2025, 1:04 pm - Nishit Sir Internship Kibbs Ai: Added comments
+25/11/2025, 1:04 pm - Nishit Sir Internship Kibbs Ai: @⁨Akshit Kibbs⁩ Please review @⁨I am Charan⁩ PR
+25/11/2025, 1:04 pm - Akshit Kibbs: Okay
+25/11/2025, 1:44 pm - I am Charan: Can we automatically update the retirement age when the retirement year changes, so both fields stay consistent? Or should we make one of the fields read-only to avoid conflicts?
+25/11/2025, 2:15 pm - Nishit Sir Internship Kibbs Ai: Yes
+25/11/2025, 2:15 pm - Nishit Sir Internship Kibbs Ai: We already have that
+25/11/2025, 2:15 pm - Nishit Sir Internship Kibbs Ai: @⁨Akshit Kibbs⁩ please confirm
+25/11/2025, 2:16 pm - I am Charan: no sir when i change the retirement year  
+retiremnt age is not updated
+25/11/2025, 2:40 pm - I am Charan: https://github.com/KIPPS-AI/personal_financial_planner/pull/61
+25/11/2025, 3:41 pm - Akshit Kibbs: Yes you can update that
+25/11/2025, 3:42 pm - I am Charan: Can I make retirement year as read only so that .
+
+Retirement age will be single source of truth
+25/11/2025, 3:43 pm - Nishit Sir Internship Kibbs Ai: No
+25/11/2025, 3:45 pm - I am Charan: Okay got it. I will make both of  them consistent and editable
+25/11/2025, 3:46 pm - Nishit Sir Internship Kibbs Ai: Income Type:
+1. rental income
+2. ⁠freelancing income
+3. ⁠business income
+4. ⁠interest income
+5. ⁠dividend income
+
+Asset Type:
+
+1. Equity, 
+2. Debt, 
+3. ⁠Hybrid, 
+4. ⁠Alternative, 
+5. ⁠Liquid, and 
+6. ⁠Real Estate.
+
+Aspiration Type:
+1. UG
+2. ⁠PG
+3. ⁠Travel
+4. ⁠Inheritance
+5. ⁠Seed Capital
+6. ⁠Car Purchass
+7. ⁠ Furniture Replacement
+8. ⁠Wedding
+
+Please add all the type in Main admin portal
+25/11/2025, 3:46 pm - Nishit Sir Internship Kibbs Ai: @⁨I am Charan⁩
+25/11/2025, 3:47 pm - I am Charan: Okay sir
+25/11/2025, 3:47 pm - Nishit Sir Internship Kibbs Ai: @⁨Akshit Kibbs⁩ Are we sure with Foreign currency part?
+25/11/2025, 3:47 pm - Akshit Kibbs: Yes
+25/11/2025, 3:47 pm - Akshit Kibbs: But we have just added usd for now
+25/11/2025, 3:48 pm - Akshit Kibbs: We have to add other currency in the wrapper also
+25/11/2025, 3:48 pm - Nishit Sir Internship Kibbs Ai: Couple of changes:
+1. Start year is missing in aspirations
+2. ⁠in income and expense if Recurring is no, frequency should not be visible
+25/11/2025, 3:49 pm - Akshit Kibbs: 2nd point is done by @⁨I am Charan⁩
+25/11/2025, 3:49 pm - I am Charan: I have done the 2nd one
+25/11/2025, 3:51 pm - Akshit Kibbs: Okay I am doing the 1st point then
+25/11/2025, 3:51 pm - Nishit Sir Internship Kibbs Ai: ok
+25/11/2025, 3:51 pm - I am Charan: review my pr
+25/11/2025, 3:52 pm - Nishit Sir Internship Kibbs Ai: Akshit will review and merge it
+25/11/2025, 3:53 pm - Akshit Kibbs: Doing that
+25/11/2025, 3:53 pm - Nishit Sir Internship Kibbs Ai: @⁨Akshit Kibbs⁩ Provided the access to merge PR
+25/11/2025, 3:53 pm - Akshit Kibbs: Ok
+25/11/2025, 4:07 pm - Akshit Kibbs: @⁨I am Charan⁩ i have reviewed your pr. its creating drafts 2 times on clicking next
+25/11/2025, 4:08 pm - Akshit Kibbs: review your changes use localstrogae to save data temoraily
+25/11/2025, 6:26 pm - I am Charan: https://github.com/KIPPS-AI/personal_financial_planner/pull/61/
+26/11/2025, 9:46 am - Nishit Sir Internship Kibbs Ai: @⁨I am Charan⁩ have you understood how excel is generated?
+26/11/2025, 9:57 am - I am Charan: Yes sir
+26/11/2025, 10:21 am - I am Charan: some one review it
+26/11/2025, 11:00 am - Nishit Sir Internship Kibbs Ai: <Media omitted>
+26/11/2025, 11:00 am - Nishit Sir Internship Kibbs Ai: Lets do standup at 12
+26/11/2025, 11:00 am - I am Charan: okay
+26/11/2025, 11:00 am - I am Charan: but still now my work was not even merged please review it
+26/11/2025, 11:01 am - I am Charan: do i have to add shimmar ui or a simple loading screen is enough?
+26/11/2025, 11:02 am - Nishit Sir Internship Kibbs Ai: Why are you waiting for that?
+26/11/2025, 11:02 am - Nishit Sir Internship Kibbs Ai: Simple loader is enough
+26/11/2025, 11:03 am - I am Charan: okay
+26/11/2025, 11:09 am - I am Charan: i am exited to see my commit on the production
+and i will continue working on loading screen in a new branch
+26/11/2025, 11:12 am - I am Charan: <Media omitted>
+26/11/2025, 11:32 am - Nishit Sir Internship Kibbs Ai: <Media omitted>
+26/11/2025, 11:34 am - I am Charan: Okay I will fix it 
+
+Can I restrict to 4 digits
+
+Or any range?
+26/11/2025, 11:34 am - Akshit Kibbs: yes
+26/11/2025, 11:35 am - I am Charan: 4 digits
+or
+ any range?
+26/11/2025, 11:35 am - Akshit Kibbs: 4 digits will be fine
+26/11/2025, 11:35 am - I am Charan: Okay
+26/11/2025, 11:49 am - Nishit Sir Internship Kibbs Ai: Freeze all rate of deprecation and Inflation in client onboarding
+26/11/2025, 11:52 am - I am Charan: okay i will make it read only
+26/11/2025, 11:55 am - Nishit Sir Internship Kibbs Ai: Yes
+26/11/2025, 12:01 pm - I am Charan: can i validate like
+dob <= today
+26/11/2025, 12:04 pm - Nishit Sir Internship Kibbs Ai: ok
+26/11/2025, 12:05 pm - Akshit Kibbs: standup ??
+26/11/2025, 12:05 pm - Nishit Sir Internship Kibbs Ai: @⁨Akshit Kibbs⁩ Please let me know when its done
+26/11/2025, 12:05 pm - Akshit Kibbs: yes
+26/11/2025, 12:05 pm - Nishit Sir Internship Kibbs Ai: In call for demo
+26/11/2025, 12:05 pm - Akshit Kibbs: ok
+26/11/2025, 12:12 pm - I am Charan: https://github.com/KIPPS-AI/personal_financial_planner/pull/66
+dob validation
+26/11/2025, 12:27 pm - Akshit Kibbs: <Media omitted>
+26/11/2025, 12:28 pm - I am Charan: Working for me
+26/11/2025, 12:28 pm - I am Charan: May be trying another browser will helpful
+26/11/2025, 12:28 pm - Akshit Kibbs: I have tried that
+26/11/2025, 12:29 pm - I am Charan: <Media omitted>
+26/11/2025, 12:30 pm - Akshit Kibbs: This message was deleted
+26/11/2025, 12:30 pm - Akshit Kibbs: @⁨Nishit Sir Internship Kibbs Ai⁩
+26/11/2025, 12:32 pm - Akshit Kibbs: <Media omitted>
+26/11/2025, 12:33 pm - I am Charan: Tried mobile?
+26/11/2025, 12:34 pm - Akshit Kibbs: Yes
+26/11/2025, 12:34 pm - Akshit Kibbs: Not worked
+26/11/2025, 12:34 pm - I am Charan: Opening other repositories!!🥲
+26/11/2025, 12:41 pm - Nishit Sir Internship Kibbs Ai: <Media omitted>
+26/11/2025, 12:50 pm - Akshit Kibbs: in aspirations if category is milestone year then do we have to show start year ?? <This message was edited>
+26/11/2025, 12:59 pm - I am Charan: https://github.com/KIPPS-AI/personal_financial_planner/pull/67
+done now frequency have year and one time options only
+26/11/2025, 1:00 pm - I am Charan: https://github.com/KIPPS-AI/personal_financial_planner/pull/68
+26/11/2025, 1:08 pm - Nishit Sir Internship Kibbs Ai: In excel and PPT “Selected risk profile” is not taken
+26/11/2025, 1:09 pm - Nishit Sir Internship Kibbs Ai: Balance sheet movement is manually added
+26/11/2025, 1:09 pm - Nishit Sir Internship Kibbs Ai: Its not getting updated
+26/11/2025, 1:13 pm - Akshit Kibbs: https://github.com/KIPPS-AI/personal_financial_planner/pull/69
+26/11/2025, 1:14 pm - Akshit Kibbs: for start year in aspirations
+26/11/2025, 1:16 pm - Nishit Sir Internship Kibbs Ai: <Media omitted>
+26/11/2025, 1:16 pm - Nishit Sir Internship Kibbs Ai: Excel has so many changes
+26/11/2025, 1:24 pm - Nishit Sir Internship Kibbs Ai: Guys lets get on standup
+26/11/2025, 1:24 pm - Akshit Kibbs: joining
+26/11/2025, 1:25 pm - Nishit Sir Internship Kibbs Ai: @⁨I am Charan⁩
+26/11/2025, 1:37 pm - I am Charan: I was in mess I am joining now
+26/11/2025, 1:37 pm - Nishit Sir Internship Kibbs Ai: We have left
+26/11/2025, 1:37 pm - Nishit Sir Internship Kibbs Ai: Please solve all the problems mentioned
+26/11/2025, 1:38 pm - I am Charan: okay sir
+26/11/2025, 1:38 pm - I am Charan: i will work on it
+26/11/2025, 2:06 pm - Akshit Kibbs: that excel issue was due to categories update @⁨Nishit Sir Internship Kibbs Ai⁩
+26/11/2025, 2:07 pm - Akshit Kibbs: no changes needed there
+26/11/2025, 2:08 pm - Akshit Kibbs: added a comment in pr.
+https://github.com/KIPPS-AI/personal_financial_planner/pull/67
+26/11/2025, 2:09 pm - Nishit Sir Internship Kibbs Ai: We will be updating all the categories
+26/11/2025, 2:10 pm - Akshit Kibbs: ok
+26/11/2025, 2:24 pm - I am Charan: https://github.com/KIPPS-AI/personal_financial_planner/pull/67
+https://github.com/KIPPS-AI/personal_financial_planner/pull/61
+26/11/2025, 2:26 pm - Akshit Kibbs: You can now start with excel
+26/11/2025, 2:27 pm - I am Charan: okay
+26/11/2025, 2:35 pm - Nishit Sir Internship Kibbs Ai: @⁨Akshit Kibbs⁩ Lets review and merge above PRs
+26/11/2025, 2:36 pm - Akshit Kibbs: doing that
+26/11/2025, 2:37 pm - Nishit Sir Internship Kibbs Ai: @⁨I am Charan⁩ Why we have not added aspiration type ?
+26/11/2025, 2:37 pm - Akshit Kibbs: it was not showing up in admin panel
+26/11/2025, 2:38 pm - Nishit Sir Internship Kibbs Ai: You can create a PR for that?
+26/11/2025, 2:38 pm - I am Charan: <Media omitted>
+26/11/2025, 2:38 pm - Akshit Kibbs: yes
+26/11/2025, 2:38 pm - Akshit Kibbs: already merged
+26/11/2025, 2:38 pm - Nishit Sir Internship Kibbs Ai: Ohh got it
+26/11/2025, 2:38 pm - Nishit Sir Internship Kibbs Ai: You are not using super admin account
+26/11/2025, 2:39 pm - Nishit Sir Internship Kibbs Ai: There is not aspirations category model in admin.py?
+26/11/2025, 2:39 pm - Nishit Sir Internship Kibbs Ai: or there is no such model?
+26/11/2025, 2:39 pm - Akshit Kibbs: added in admin.py
+26/11/2025, 2:39 pm - Akshit Kibbs: before it was not
+26/11/2025, 3:23 pm - I am Charan: <Media omitted>
+26/11/2025, 3:23 pm - Akshit Kibbs: Yes
+26/11/2025, 3:23 pm - I am Charan: okay please say first table is okay?
+26/11/2025, 3:24 pm - Nishit Sir Internship Kibbs Ai: I think I miscommunicated.
+26/11/2025, 3:24 pm - Nishit Sir Internship Kibbs Ai: we need sentence case
+26/11/2025, 3:24 pm - Nishit Sir Internship Kibbs Ai: Sentence case is a capitalization style where only the first word of a sentence and any proper nouns are capitalized.
+26/11/2025, 3:25 pm - Nishit Sir Internship Kibbs Ai: sorry my mistake
+26/11/2025, 3:25 pm - I am Charan: okay sir don't worry its not a problem i am still working i can fix it in seconds
+26/11/2025, 3:25 pm - Nishit Sir Internship Kibbs Ai: Thanks
+26/11/2025, 3:27 pm - I am Charan: You deleted this message
+26/11/2025, 3:30 pm - I am Charan: headers_config = [
+    {"header": "Education for", "key": "education"},
+    {"header": "Year of education", "key": "year"},
+    {"header": "Expense at the time of education", "key": "expense_time"},
+    {"header": "Money required today", "key": "money_today"},
+    {"header": "Today's expense", "key": "today_expense"},
+    {"header": "Today's exchange rate", "key": "exchange_rate"},
+    {"header": "Inflation", "key": "inflation"},
+    {"header": "Stable", "key": "stable"},
+    {"header": "Volatile", "key": "volatile"},
+    {"header": "Post tax return", "key": "post_tax"},
+    {"header": "Expense at the time of education", "key": "expense_time2"},
+    {"header": "Currency fluctuation", "key": "currency_fluct"},
+    {"header": "Dollar value at the time of expense", "key": "dollar_value"},
+]
+once see is this correct form of sentense casee
+26/11/2025, 3:31 pm - Nishit Sir Internship Kibbs Ai: Correct
+26/11/2025, 3:31 pm - I am Charan: okay perfect then i will update same for the  below table also
+26/11/2025, 3:44 pm - I am Charan: https://github.com/KIPPS-AI/personal_financial_planner/pull/71
+
+updated to sentense case
+26/11/2025, 5:03 pm - Nishit Sir Internship Kibbs Ai: ?
+26/11/2025, 5:03 pm - I am Charan: ..
+26/11/2025, 5:03 pm - Nishit Sir Internship Kibbs Ai: Bro!. That loader is different
+26/11/2025, 5:04 pm - Nishit Sir Internship Kibbs Ai: please join daily link
+26/11/2025, 5:04 pm - Nishit Sir Internship Kibbs Ai: https://meet.google.com/zyr-fpff-cea?authuser=2
+26/11/2025, 5:04 pm - Nishit Sir Internship Kibbs Ai: Here
+26/11/2025, 5:04 pm - I am Charan: joining
+26/11/2025, 5:04 pm - Nishit Sir Internship Kibbs Ai: This?
+26/11/2025, 5:05 pm - I am Charan: yeah i have fixed it and raised pr
+26/11/2025, 5:05 pm - Nishit Sir Internship Kibbs Ai: ?
+26/11/2025, 5:05 pm - I am Charan: done this too
+26/11/2025, 5:05 pm - Nishit Sir Internship Kibbs Ai: There is no PR pending
+26/11/2025, 5:05 pm - Nishit Sir Internship Kibbs Ai: Please check github
+26/11/2025, 5:06 pm - Nishit Sir Internship Kibbs Ai: From the backend we have value under currency models
+26/11/2025, 5:06 pm - I am Charan: i think all prs are merged
+26/11/2025, 5:06 pm - Nishit Sir Internship Kibbs Ai: Please join the call
+26/11/2025, 5:15 pm - Nishit Sir Internship Kibbs Ai: @⁨Akshit Kibbs⁩ What about aspiration category
+26/11/2025, 5:21 pm - Akshit Kibbs: I have added it to admi panel
+26/11/2025, 6:50 pm - I am Charan: do i have access to add a new end point in the backend
+26/11/2025, 7:04 pm - Nishit Sir Internship Kibbs Ai: We don’t need a new endpoint. Just add data in the existing api that loads inflation data
+27/11/2025, 11:16 am - Nishit Sir Internship Kibbs Ai: <Media omitted>
+27/11/2025, 11:16 am - Nishit Sir Internship Kibbs Ai: @⁨Akshit Kibbs⁩ please check the sheet format
+27/11/2025, 11:16 am - Nishit Sir Internship Kibbs Ai: @⁨I am Charan⁩ please you also look at it
+27/11/2025, 11:16 am - Nishit Sir Internship Kibbs Ai: <Media omitted>
+27/11/2025, 11:16 am - I am Charan: okay
+27/11/2025, 11:17 am - Nishit Sir Internship Kibbs Ai: Check how ppt is properly structured
+27/11/2025, 11:17 am - Nishit Sir Internship Kibbs Ai: Reduce font size
+27/11/2025, 11:17 am - Nishit Sir Internship Kibbs Ai: You can use different font as well
+27/11/2025, 11:24 am - I am Charan: https://github.com/KIPPS-AI/personal_financial_planner/pull/73/
+dynamic inflation and deprication rates
+27/11/2025, 11:25 am - I am Charan: added the loading logic to avoid showing 0 in home screen and it was merged @⁨Nishit Sir Internship Kibbs Ai⁩
+27/11/2025, 11:32 am - I am Charan: <Media omitted>
+27/11/2025, 11:32 am - Nishit Sir Internship Kibbs Ai: Ok
+27/11/2025, 11:32 am - Nishit Sir Internship Kibbs Ai: Yes
+27/11/2025, 11:33 am - I am Charan: <Media omitted>
+27/11/2025, 4:50 pm - Nishit Sir Internship Kibbs Ai: Balance Sheet movement is not getting updated.
+27/11/2025, 4:50 pm - Nishit Sir Internship Kibbs Ai: @⁨Akshit Kibbs⁩
+27/11/2025, 4:50 pm - Nishit Sir Internship Kibbs Ai: Risk profile is not getting changed in excel and PPT despite overriding in the questionnaire ouput
+27/11/2025, 4:51 pm - Akshit Kibbs: Checking
+27/11/2025, 4:52 pm - Nishit Sir Internship Kibbs Ai: @⁨I am Charan⁩ inflation and rate of depreciation should freeze
+27/11/2025, 4:53 pm - I am Charan: i have did it and getting the values from the backedn @⁨Akshit Kibbs⁩  also verified and said working
+27/11/2025, 4:54 pm - Nishit Sir Internship Kibbs Ai: Ok please check if it’s working only in edit or during add too
+27/11/2025, 4:54 pm - I am Charan: yeah it was working in both i have implemented and tested it
+27/11/2025, 4:55 pm - I am Charan: if its not working i will test again and say
+27/11/2025, 4:56 pm - Akshit Kibbs: Test on production
+27/11/2025, 4:57 pm - Nishit Sir Internship Kibbs Ai: @⁨I am Charan⁩ When entering a goal (whether its retirement or education or wedding) with frequency set to yearly and can add the years, should be a integer number and not keep it as fixed. Also, if an option is added which says as “One Time”.
+27/11/2025, 5:03 pm - I am Charan: <Media omitted>
+27/11/2025, 5:04 pm - Nishit Sir Internship Kibbs Ai: •	All information should be linked with “Client Profile Sheet or interlinked with each other”. Example - Future sheet should pick values from Client Profile sheet.
+27/11/2025, 5:58 pm - I am Charan: for this i have added the years field is it okay?
+but adding this may leads to many subsequent changes
+27/11/2025, 5:59 pm - Nishit Sir Internship Kibbs Ai: Its frequency. Ideally user will add 1,2,3,4,5,6........
+27/11/2025, 6:04 pm - I am Charan: <Media omitted>
+27/11/2025, 6:08 pm - Nishit Sir Internship Kibbs Ai: @⁨Akshit Kibbs⁩ Let schedule a call tomorrow for atleast 1-2 hrs. Where you give a complete onboarding to me. And we go through each aspects. 
+
+Please clearly note down:
+1. How each sheet in excel is generated 
+2. ⁠How each slide in PPT is generated
+3. ⁠What is clearly not working as expected and 
+4. ⁠What you think might not work
+
+If possible please refactor code into smaller chunks. Make more files not an issue
+27/11/2025, 6:13 pm - Akshit Kibbs: Sure
+27/11/2025, 6:26 pm - I am Charan: <Media omitted>
+27/11/2025, 6:28 pm - Nishit Sir Internship Kibbs Ai: Yes
+27/11/2025, 6:35 pm - I am Charan: With the current approach, using plan as a React state is causing several issues:
+
+1)Each aspiration item would require its own plan state, which quickly becomes unmanageable and leads to a large number of states.
+
+2)The backend does not return a plan field, so mapping the incoming data back to the UI becomes inconsistent and creates additional edge cases.
+
+To avoid this complexity, I suggest we remove the separate plan field entirely and rely only on the existing frequency value.
+The user can directly enter the frequency as 1, 2, 3, …, which keeps the data model clean, consistent, and easier to maintain across both frontend and backend.
+27/11/2025, 6:40 pm - I am Charan: @⁨Akshit Kibbs⁩ @⁨Nishit Sir Internship Kibbs Ai⁩  please help me solve this case
+27/11/2025, 6:45 pm - Nishit Sir Internship Kibbs Ai: We will discuss more on this tomorrow
+27/11/2025, 6:45 pm - I am Charan: okay
+27/11/2025, 6:46 pm - Nishit Sir Internship Kibbs Ai: Can you format the excel so that it looks more presentable?
+27/11/2025, 6:46 pm - Nishit Sir Internship Kibbs Ai: Checkout
+27/11/2025, 6:46 pm - I am Charan: okay
+27/11/2025, 6:46 pm - I am Charan: do i have to make the output of our excel  like this?
+27/11/2025, 6:47 pm - Akshit Kibbs: No just formatting and styling
+27/11/2025, 6:47 pm - I am Charan: okay i will see
+27/11/2025, 6:48 pm - Nishit Sir Internship Kibbs Ai: Yes just formatting and style to make sure its more readable and Good UI
+27/11/2025, 6:48 pm - I am Charan: and its always showing 0 on production but working on local i want to debug and trouble shoot but how to access and see logs in the production
+27/11/2025, 6:48 pm - Akshit Kibbs: I guess backend is not deployed yet with changes ??
+27/11/2025, 6:49 pm - I am Charan: okay i will implement the suggestions which i said earlier
+27/11/2025, 6:49 pm - Akshit Kibbs: Is that so @⁨Nishit Sir Internship Kibbs Ai⁩
+27/11/2025, 6:49 pm - Nishit Sir Internship Kibbs Ai: Let me check
+27/11/2025, 6:49 pm - Nishit Sir Internship Kibbs Ai: Changes deployed
+27/11/2025, 6:49 pm - Akshit Kibbs: Once deployed you can test your changes @⁨I am Charan⁩ on production
+27/11/2025, 6:50 pm - I am Charan: yeah i guess thats the reason 
+but in local it was working so perfect
+27/11/2025, 6:50 pm - Akshit Kibbs: Yes
+27/11/2025, 6:50 pm - Nishit Sir Internship Kibbs Ai: We will add CI/CD in this repo soon.
+27/11/2025, 6:51 pm - Akshit Kibbs: Yeah that will be more convenient
+28/11/2025, 11:20 am - Akshit Kibbs: @⁨I am Charan⁩ any update on excel. if you are stucked anywhere let me know
+28/11/2025, 11:21 am - I am Charan: I am working on it but I don't find any major changes 
+
+I am just increasing size of cells and alignment
+28/11/2025, 11:22 am - Akshit Kibbs: Okay
+28/11/2025, 11:23 am - Akshit Kibbs: The major change is consistency throught all sheets
+28/11/2025, 11:24 am - I am Charan: I will first update 2 sheets and send you screenshots.
+
+Then after I will continue with remaining
+28/11/2025, 11:24 am - Akshit Kibbs: Create pr after your changes
+28/11/2025, 11:25 am - I am Charan: Okay
+28/11/2025, 11:36 am - I am Charan: https://github.com/KIPPS-AI/personal_financial_planner/pull/75
+
+changed first page of excel sheet review it
+28/11/2025, 11:36 am - I am Charan: @⁨Akshit Kibbs⁩
+28/11/2025, 11:58 am - Nishit Sir Internship Kibbs Ai: Hey @⁨Akshit Kibbs⁩ can we have a call today at 2-3 ?
+28/11/2025, 12:00 pm - Akshit Kibbs: Yes fine for me
+28/11/2025, 12:23 pm - I am Charan: <Media omitted>
+28/11/2025, 12:24 pm - Akshit Kibbs: Leave it for now
+28/11/2025, 12:24 pm - Akshit Kibbs: I will check
+28/11/2025, 2:03 pm - I am Charan: <Media omitted>
+28/11/2025, 2:03 pm - Akshit Kibbs: meet ??
+28/11/2025, 2:07 pm - Nishit Sir Internship Kibbs Ai: Bro give me some time
+28/11/2025, 2:07 pm - Akshit Kibbs: <Media omitted>
+28/11/2025, 2:07 pm - Akshit Kibbs: okay
+28/11/2025, 2:08 pm - I am Charan: may be my db don't have that data
+that's why i am getting empty
+28/11/2025, 2:09 pm - Akshit Kibbs: no its because you dont input data in all categories when create client
+28/11/2025, 2:09 pm - I am Charan: yeah that's what i mean 
+okay any how i understood
+28/11/2025, 2:10 pm - Akshit Kibbs: https://github.com/KIPPS-AI/personal_financial_planner/pull/76
+
+https://github.com/KIPPS-AI/personal_financial_planner/pull/70
+
+@⁨Nishit Sir Internship Kibbs Ai⁩  approve these pr
+28/11/2025, 2:12 pm - I am Charan: <Media omitted>
+28/11/2025, 2:13 pm - Akshit Kibbs: great
+28/11/2025, 2:13 pm - I am Charan: have you merged my previous pr
+28/11/2025, 2:14 pm - Akshit Kibbs: no
+28/11/2025, 2:14 pm - Akshit Kibbs: do changes in all
+28/11/2025, 2:15 pm - I am Charan: ok
+28/11/2025, 2:21 pm - I am Charan: https://github.com/KIPPS-AI/personal_financial_planner/pull/77
+28/11/2025, 3:12 pm - Nishit Sir Internship Kibbs Ai: @⁨Akshit Kibbs⁩ We can have call now
+28/11/2025, 3:15 pm - Nishit Sir Internship Kibbs Ai: Merged and deployed
+28/11/2025, 3:44 pm - Nishit Sir Internship Kibbs Ai: @⁨Akshit Kibbs⁩ let me know suitable time when can we meet before 6
+28/11/2025, 3:58 pm - Akshit Kibbs: Now ?
+28/11/2025, 4:00 pm - Nishit Sir Internship Kibbs Ai: Sure
+28/11/2025, 4:00 pm - Nishit Sir Internship Kibbs Ai: Join daily standup link
+28/11/2025, 4:01 pm - Akshit Kibbs: Okay
+28/11/2025, 4:04 pm - Akshit Kibbs: Joined
+28/11/2025, 4:05 pm - Nishit Sir Internship Kibbs Ai: 1 min
+28/11/2025, 4:44 pm - I am Charan: <Media omitted>
+28/11/2025, 4:58 pm - I am Charan: https://github.com/KIPPS-AI/personal_financial_planner/pull/75
+
+merge it i think most of the part now looks good in excel if still any thing let me know
+and i also still looking for any new things
+28/11/2025, 4:58 pm - Akshit Kibbs: Okay
+28/11/2025, 4:59 pm - Akshit Kibbs: I will review and merge
+28/11/2025, 4:59 pm - Akshit Kibbs: You can start with further task
+28/11/2025, 5:03 pm - I am Charan: Okay
+28/11/2025, 6:54 pm - Nishit Sir Internship Kibbs Ai: @⁨I am Charan⁩ Are you free for call?
+28/11/2025, 6:55 pm - I am Charan: yes sir
+28/11/2025, 6:55 pm - Nishit Sir Internship Kibbs Ai: https://meet.google.com/zyr-fpff-cea?authuser=2
+28/11/2025, 7:05 pm - I am Charan: You deleted this message
+28/11/2025, 9:40 pm - I am Charan: https://github.com/KIPPS-AI/personal_financial_planner/pull/78
+
+duplicate asset , input frequency
+29/11/2025, 1:09 pm - Akshit Kibbs: https://github.com/KIPPS-AI/personal_financial_planner/pull/79
+@⁨Nishit Sir Internship Kibbs Ai⁩ I have refractored sheets to show formulas
+29/11/2025, 2:01 pm - Nishit Sir Internship Kibbs Ai: For which Sheet you have done this?
+29/11/2025, 2:02 pm - Akshit Kibbs: All balance movement sheets and retirement sheet
+29/11/2025, 2:02 pm - Nishit Sir Internship Kibbs Ai: ok
+29/11/2025, 2:02 pm - Nishit Sir Internship Kibbs Ai: Also review charan PR
+29/11/2025, 2:02 pm - Akshit Kibbs: Ok
+01/12/2025, 11:42 am - I am Charan: https://github.com/KIPPS-AI/personal_financial_planner/pull/80
+
+showing disclaimer
+01/12/2025, 11:51 am - Nishit Sir Internship Kibbs Ai: <Media omitted>
+01/12/2025, 11:51 am - Nishit Sir Internship Kibbs Ai: Please check review
+01/12/2025, 11:54 am - I am Charan: it will work as i am fetching data from the db
+
+and here i am storing the IND , USD , EUR as a fallback so it should always have thosee fields even with no data in db
+01/12/2025, 11:55 am - Nishit Sir Internship Kibbs Ai: Then why we created those fields in DB?
+01/12/2025, 11:56 am - Nishit Sir Internship Kibbs Ai: It should be fetched from DB only.
+01/12/2025, 11:56 am - Nishit Sir Internship Kibbs Ai: And no hardcoding
+01/12/2025, 11:57 am - I am Charan: it is fully dynamic data only 
+
+for cur in currencies:
+            currency[cur.name.upper()] = {
+                "deprication": deprications.get(cur.name.upper(), 0.0),
+                "inflation": inflations.get(cur.name.upper(), 0.0),
+                }
+
+in this i am getting all currencies from db and showing in frontend
+01/12/2025, 11:58 am - Nishit Sir Internship Kibbs Ai: Then remove this code
+01/12/2025, 11:58 am - I am Charan: and you can see all the data which is directly coming from the data base
+
+even you add a new currency then also it will work
+01/12/2025, 11:59 am - I am Charan: okay i will remove 
+
+but what i thought is, in case of db failure this will help without showing empty data
+01/12/2025, 12:04 pm - I am Charan: https://github.com/KIPPS-AI/personal_financial_planner/pull/80/
+
+i have commeted those lines and it is working
+01/12/2025, 12:04 pm - I am Charan: <Media omitted>
+01/12/2025, 12:14 pm - I am Charan: Now i have added the 'X cancel' button and removed the hardcoded fallback data in the views
+01/12/2025, 12:18 pm - Nishit Sir Internship Kibbs Ai: there is not inflation in currency table
+01/12/2025, 12:24 pm - Nishit Sir Internship Kibbs Ai: Bro From currency table show Exchange rate and rate of depreciation
+01/12/2025, 12:26 pm - Nishit Sir Internship Kibbs Ai: And from OtherAssumptions models show only india_inflation in a single row <This message was edited>
+01/12/2025, 12:27 pm - Nishit Sir Internship Kibbs Ai: Basicually OtherAssumptions will have only 1 row
+01/12/2025, 12:27 pm - Nishit Sir Internship Kibbs Ai: So you can do OtherAssumptions.objects.last()
+01/12/2025, 12:32 pm - I am Charan: <Media omitted>
+01/12/2025, 12:34 pm - Nishit Sir Internship Kibbs Ai: Yes ignore
+01/12/2025, 12:36 pm - I am Charan: 1) show indian inflation from other assumptions
+2) show currency : exchange rate , deprication rate
+
+please conform is it the data to show
+01/12/2025, 12:37 pm - Nishit Sir Internship Kibbs Ai: Yes
+01/12/2025, 1:10 pm - I am Charan: <Media omitted>
+01/12/2025, 1:19 pm - Nishit Sir Internship Kibbs Ai: Perfect
+01/12/2025, 1:19 pm - Nishit Sir Internship Kibbs Ai: Lets merge this
+01/12/2025, 2:04 pm - I am Charan: @⁨Nishit Sir Internship Kibbs Ai⁩ 
+
+When do we have meet about this week tasks
+01/12/2025, 2:04 pm - Nishit Sir Internship Kibbs Ai: Yes Lets have a call now!
+01/12/2025, 2:04 pm - Nishit Sir Internship Kibbs Ai: Sharing link
+01/12/2025, 2:04 pm - I am Charan: Okay
+01/12/2025, 2:05 pm - Nishit Sir Internship Kibbs Ai: https://meet.google.com/kgj-ijqc-jgu?authuser=2&hs=122&ijlm=1764578104326
+01/12/2025, 2:50 pm - Nishit Sir Internship Kibbs Ai: @⁨I am Charan⁩ 
+
+1. Onetime in Aspiration
+2. Put Formula in excel everyplace where it is required
+01/12/2025, 2:51 pm - Nishit Sir Internship Kibbs Ai: @⁨Akshit Kibbs⁩ Please tell him where you have done the last formula thing in excel.
+01/12/2025, 2:51 pm - Nishit Sir Internship Kibbs Ai: Just check the file
+01/12/2025, 4:37 pm - I am Charan: https://github.com/KIPPS-AI/personal_financial_planner/pull/81
+
+Fixed frequency updation in aspiration
+01/12/2025, 4:38 pm - Nishit Sir Internship Kibbs Ai: You have not done any code changes for this
+01/12/2025, 5:04 pm - I am Charan: <Media omitted>
+01/12/2025, 5:05 pm - I am Charan: also for information i have changed models.py 
+so you may have to run migrate in your local or deployed
+01/12/2025, 5:13 pm - Nishit Sir Internship Kibbs Ai: No but not changes logic part.
+01/12/2025, 5:13 pm - Nishit Sir Internship Kibbs Ai: Just change in list
+01/12/2025, 5:13 pm - Nishit Sir Internship Kibbs Ai: How it will be used/
+01/12/2025, 5:20 pm - I am Charan: Actually previous code also working
+
+But the backend code is rejecting due to that mismatch previous code is not working
+
+Now check once it is defently working I have tested it
+01/12/2025, 5:49 pm - Akshit Kibbs: Okay
+01/12/2025, 5:49 pm - Akshit Kibbs: I will have a call
+03/12/2025, 11:04 am - Nishit Sir Internship Kibbs Ai: <Media omitted>
+03/12/2025, 11:04 am - Nishit Sir Internship Kibbs Ai: @⁨I am Charan⁩ Review this
+03/12/2025, 11:06 am - I am Charan: You deleted this message
+03/12/2025, 11:07 am - I am Charan: <Media omitted>
+03/12/2025, 11:11 am - I am Charan: <Media omitted>
+03/12/2025, 11:12 am - Nishit Sir Internship Kibbs Ai: You can start doing changes of heading, spacing and font from this sheet
+03/12/2025, 11:13 am - I am Charan: edit in the sheet or from the code?
+03/12/2025, 11:15 am - Nishit Sir Internship Kibbs Ai: What’s do you mean ?
+03/12/2025, 11:17 am - I am Charan: do i have to directly edit this sheet
+or
+edit the code to look like this?
+03/12/2025, 11:20 am - Nishit Sir Internship Kibbs Ai: Edit the code to look like the above sheet
+03/12/2025, 1:44 pm - Nishit Sir Internship Kibbs Ai: Hey Charan,
+03/12/2025, 1:44 pm - Nishit Sir Internship Kibbs Ai: Lets sit at 3PM
+03/12/2025, 1:45 pm - Nishit Sir Internship Kibbs Ai: And discuss on excel work
+03/12/2025, 1:46 pm - I am Charan: I kindly request to reschedule this 
+I have a important meet on my college 
+
+Please consider this request
+03/12/2025, 1:47 pm - I am Charan: We can have discussion at 2.00pm
+03/12/2025, 1:47 pm - Nishit Sir Internship Kibbs Ai: Please suggest another time?
+03/12/2025, 1:47 pm - Nishit Sir Internship Kibbs Ai: Sure let have at 2
+03/12/2025, 1:47 pm - Nishit Sir Internship Kibbs Ai: We can start discussion from now
+03/12/2025, 1:47 pm - I am Charan: I will join in 10mins
+03/12/2025, 1:48 pm - Nishit Sir Internship Kibbs Ai: Ok. Let me know when you are available
+03/12/2025, 1:55 pm - I am Charan: i am available
+03/12/2025, 1:56 pm - Nishit Sir Internship Kibbs Ai: Fin Plan Standup
+Wednesday, December 3 · 12:00 – 12:15pm
+Time zone: Asia/Kolkata
+Google Meet joining info
+Video call link: https://meet.google.com/kgj-ijqc-jgu
+Or dial: ‪(US) +1 727-877-8348‬ PIN: ‪236 479 373‬#
+More phone numbers: https://tel.meet/kgj-ijqc-jgu?pin=8906163712798
+03/12/2025, 2:04 pm - I am Charan: <Media omitted>
+03/12/2025, 2:08 pm - I am Charan: sir you make the numbers first then i apply formatting so that it would be the best flow for both of us for very sheet <This message was edited>
+03/12/2025, 2:09 pm - Nishit Sir Internship Kibbs Ai: Ok
+03/12/2025, 5:12 pm - I am Charan: Hlo sir I am available now
+03/12/2025, 5:26 pm - Nishit Sir Internship Kibbs Ai: ok
+03/12/2025, 5:26 pm - Nishit Sir Internship Kibbs Ai: I will message you.
+03/12/2025, 6:11 pm - Nishit Sir Internship Kibbs Ai: For PPT - 
+
+PPt Eiko – for headings
+Inter – for body text
+
+For Excel - Calibri 11 <This message was edited>
+03/12/2025, 6:11 pm - Nishit Sir Internship Kibbs Ai: @⁨I am Charan⁩ please check and update
+03/12/2025, 6:58 pm - I am Charan: <Media omitted>
+03/12/2025, 6:58 pm - I am Charan: is it the system problem or any code is wrong
+03/12/2025, 6:58 pm - I am Charan: <Media omitted>
+03/12/2025, 7:24 pm - I am Charan: You deleted this message
+03/12/2025, 8:21 pm - I am Charan: https://github.com/KIPPS-AI/personal_financial_planner/pull/83
+this pr have both updated head and body fonts
+03/12/2025, 8:22 pm - I am Charan: ignore this merging this will cause some issues
+04/12/2025, 11:21 am - I am Charan: please merge this 
+@⁨Nishit Sir Internship Kibbs Ai⁩  @⁨Akshit Kibbs⁩ i am editng on same file in multiple prs it may cause merge conflicts later
+04/12/2025, 11:30 am - Nishit Sir Internship Kibbs Ai: Ok
+04/12/2025, 3:46 pm - Nishit Sir Internship Kibbs Ai: Merged
+04/12/2025, 4:42 pm - I am Charan: https://github.com/KIPPS-AI/personal_financial_planner/pull/81
+this was approved but never merged
+04/12/2025, 4:52 pm - I am Charan: https://github.com/KIPPS-AI/personal_financial_planner/pull/84/
+04/12/2025, 4:52 pm - Nishit Sir Internship Kibbs Ai: Done
+05/12/2025, 11:05 am - Nishit Sir Internship Kibbs Ai: <Media omitted>
+05/12/2025, 11:10 am - I am Charan: <Media omitted>
+05/12/2025, 11:11 am - I am Charan: yesterday i have worked on this 3d slide if you find it intresting we can use it
+or else ignore
+05/12/2025, 11:31 am - I am Charan: <Media omitted>
+05/12/2025, 11:40 am - Nishit Sir Internship Kibbs Ai: Let’s connect at 12
+05/12/2025, 12:04 pm - Nishit Sir Internship Kibbs Ai: Fin Plan Standup
+Friday, December 5 · 12:00 – 12:15pm
+Time zone: Asia/Kolkata
+Google Meet joining info
+Video call link: https://meet.google.com/kgj-ijqc-jgu
+Or dial: ‪(US) +1 727-877-8348‬ PIN: ‪236 479 373‬#
+More phone numbers: https://tel.meet/kgj-ijqc-jgu?pin=8906163712798
+05/12/2025, 12:25 pm - I am Charan: Century Gothic is used everywhere, but for the body we use Calibri.
+05/12/2025, 12:25 pm - I am Charan: i will update same in our current ppt
+05/12/2025, 12:26 pm - Nishit Sir Internship Kibbs Ai: Don’t change font bro
+05/12/2025, 12:26 pm - Nishit Sir Internship Kibbs Ai: Font will be this only
+05/12/2025, 12:26 pm - Nishit Sir Internship Kibbs Ai: Check font size and color for ppt
+05/12/2025, 12:38 pm - I am Charan: <Media omitted>
+05/12/2025, 12:56 pm - Nishit Sir Internship Kibbs Ai: ok
+05/12/2025, 1:05 pm - I am Charan: <Media omitted>
+05/12/2025, 1:06 pm - Nishit Sir Internship Kibbs Ai: Cool
+05/12/2025, 1:30 pm - I am Charan: <Media omitted>
+05/12/2025, 1:33 pm - I am Charan: https://github.com/KIPPS-AI/personal_financial_planner/pull/85
+updated font colurs
+05/12/2025, 2:14 pm - I am Charan: <Media omitted>
+05/12/2025, 2:22 pm - Nishit Sir Internship Kibbs Ai: Ok. Is there are any other options?
+05/12/2025, 2:22 pm - I am Charan: im checking but nothing worked i will look other options too
+05/12/2025, 2:23 pm - Nishit Sir Internship Kibbs Ai: ok
+05/12/2025, 3:23 pm - I am Charan: https://github.com/KIPPS-AI/personal_financial_planner/pull/86
+added pie chart to look like master ppt
+05/12/2025, 3:23 pm - I am Charan: <Media omitted>
+05/12/2025, 3:24 pm - Nishit Sir Internship Kibbs Ai: Improve bar chart as well
+05/12/2025, 3:24 pm - I am Charan: yeah already half completed i will raise another pr soon
+05/12/2025, 4:31 pm - I am Charan: https://github.com/KIPPS-AI/personal_financial_planner/pull/86
+added the bar graph also in the same branch
+05/12/2025, 4:32 pm - I am Charan: <Media omitted>
+05/12/2025, 4:33 pm - I am Charan: @⁨Nishit Sir Internship Kibbs Ai⁩  say next what to do sir
+05/12/2025, 4:34 pm - I am Charan: and review the changes i made
+05/12/2025, 4:43 pm - Nishit Sir Internship Kibbs Ai: Will review and let you know
+05/12/2025, 4:43 pm - I am Charan: Okay
+05/12/2025, 4:44 pm - Nishit Sir Internship Kibbs Ai: Are there only 2 charts in ppt ?
+05/12/2025, 4:44 pm - Nishit Sir Internship Kibbs Ai: Please see excel chart also
+05/12/2025, 4:54 pm - I am Charan: <Media omitted>
+05/12/2025, 4:55 pm - Nishit Sir Internship Kibbs Ai: Yes
+05/12/2025, 4:55 pm - Nishit Sir Internship Kibbs Ai: Please see excel too
+05/12/2025, 4:56 pm - Nishit Sir Internship Kibbs Ai: This one
+05/12/2025, 4:56 pm - Nishit Sir Internship Kibbs Ai: We needs good charts in final generated excel as well
+05/12/2025, 4:57 pm - I am Charan: okay i will be on it
+06/12/2025, 2:40 pm - Nishit Sir Internship Kibbs Ai: o Contingency
+o Lifestyle Planning
+o Parental Aspiration
+o Asset Ownership
+o Asset Replacement
+o Others
+
+@⁨I am Charan⁩ Aspiration categories.
+06/12/2025, 2:40 pm - Nishit Sir Internship Kibbs Ai: <Media omitted>
+06/12/2025, 2:41 pm - Nishit Sir Internship Kibbs Ai: <Media omitted>
+06/12/2025, 2:41 pm - Nishit Sir Internship Kibbs Ai: I’m adding tasks here. You can do it on monday first half as well
+06/12/2025, 2:45 pm - Nishit Sir Internship Kibbs Ai: <Media omitted>
+06/12/2025, 2:46 pm - Nishit Sir Internship Kibbs Ai: <Media omitted>
+06/12/2025, 3:47 pm - I am Charan: <Media omitted>
+06/12/2025, 3:48 pm - Nishit Sir Internship Kibbs Ai: I have done this
+06/12/2025, 3:48 pm - I am Charan: i will add them in admin portal in production
+06/12/2025, 3:49 pm - Nishit Sir Internship Kibbs Ai: Please make a script
+06/12/2025, 3:49 pm - Nishit Sir Internship Kibbs Ai: Because we will change db
+06/12/2025, 3:49 pm - I am Charan: script to add seed data?
+06/12/2025, 4:10 pm - I am Charan: def create_aspiration_categories():
+    # categories = [
+    #     {"name": "Retirement", "is_milestone_year": False},
+    #     {"name": "Children Education", "is_milestone_year": True},
+    #     {"name": "Wealth Creation", "is_milestone_year": False},
+    #     {"name": "Travel", "is_milestone_year": True},
+    # ]
+    categories = [
+        {"name": "Contingency", "is_milestone_year": False},
+        {"name": "Lifestyle Planning", "is_milestone_year": False},
+        {"name": "Parental Aspiration", "is_milestone_year": True},
+        {"name": "Asset Ownership", "is_milestone_year": True},
+        {"name": "Asset Replacement", "is_milestone_year": False},
+        {"name": "Others", "is_milestone_year": False},
+    ]
+
+    for category in categories:
+        AspirationCategory.objects.get_or_create(**category)
+
+see i have updated here is it okay
+06/12/2025, 4:12 pm - I am Charan: from <Label>Growth Rate (p.a. %)</Label>
+to <Label>Growth Rate(pa)</Label>
+i have removed pa% as it is disturbing the laybout after that we are having proper alignment
+06/12/2025, 4:33 pm - Nishit Sir Internship Kibbs Ai: Instead of pa make (in %)
+08/12/2025, 11:03 am - I am Charan: @⁨Nishit Sir Internship Kibbs Ai⁩  no stand up?
+08/12/2025, 11:04 am - Nishit Sir Internship Kibbs Ai: Bro your standup is at 12
+08/12/2025, 11:04 am - Nishit Sir Internship Kibbs Ai: For Fin plan
+08/12/2025, 11:04 am - Nishit Sir Internship Kibbs Ai: We will be adding you to another AI project.
+08/12/2025, 11:04 am - I am Charan: Okay
+08/12/2025, 11:09 am - Nishit Sir Internship Kibbs Ai: Please complete all the above tasks
+08/12/2025, 11:36 am - I am Charan: https://github.com/KIPPS-AI/personal_financial_planner/pull/87/
+
+save button working at all stages
+08/12/2025, 12:03 pm - Nishit Sir Internship Kibbs Ai: @⁨I am Charan⁩ Please join the standup
+08/12/2025, 12:11 pm - I am Charan: https://github.com/KIPPS-AI/personal_financial_planner/pull/88
+showing the login error screen
+08/12/2025, 12:17 pm - Nishit Sir Internship Kibbs Ai: Merged both PRs
+08/12/2025, 12:17 pm - Nishit Sir Internship Kibbs Ai: Take a new branch from fix/excel
+08/12/2025, 12:17 pm - I am Charan: You deleted this message
+08/12/2025, 12:18 pm - I am Charan: https://github.com/KIPPS-AI/personal_financial_planner/pull/89
+added the aspiration category , cahnge the form layoyt <This message was edited>
+08/12/2025, 12:24 pm - I am Charan: merge this commit too i have tested it
+08/12/2025, 12:27 pm - Nishit Sir Internship Kibbs Ai: ok merged
+08/12/2025, 12:27 pm - I am Charan: okay i am now working on fix/excel branch
+08/12/2025, 12:27 pm - Nishit Sir Internship Kibbs Ai: Sure bro. I’m pushing main branch changes to my brnahc
+08/12/2025, 12:28 pm - Nishit Sir Internship Kibbs Ai: Don’t work on this branch. Take a new branch out of it
+08/12/2025, 12:28 pm - I am Charan: okay understood
+08/12/2025, 12:28 pm - Nishit Sir Internship Kibbs Ai: git fetch origin fix/excel:fix/excel
+git checkout fix/excel
+git checkout -b <new_branch_name>
+08/12/2025, 12:29 pm - I am Charan: yeah thanks for the help but i already did it
+08/12/2025, 12:30 pm - Nishit Sir Internship Kibbs Ai: Nice
+08/12/2025, 12:31 pm - I am Charan: as we discussed i will work on desing part and you will be working on numerics and formulas
+
+is it sir?
+08/12/2025, 12:38 pm - I am Charan: on (fix/excel-design)
+
+i have migrated prisma with 
+python manage.py makemigrations
+python manage.py migrate
+
+and run the code now getting this error
+AttributeError: 'NoneType' object has no attribute 'india_inflation'
+08/12/2025, 1:08 pm - Nishit Sir Internship Kibbs Ai: Do debugging yourself
+08/12/2025, 1:08 pm - Nishit Sir Internship Kibbs Ai: this is a small issue
+08/12/2025, 1:08 pm - Nishit Sir Internship Kibbs Ai: Most probably need to add data
+08/12/2025, 2:19 pm - I am Charan: <Media omitted>
+08/12/2025, 2:20 pm - Nishit Sir Internship Kibbs Ai: Please take that from currency table
+08/12/2025, 2:38 pm - I am Charan: where to get currency fluctuation
+08/12/2025, 2:42 pm - I am Charan: also GDP block is commeted how to handle that
+08/12/2025, 2:43 pm - Nishit Sir Internship Kibbs Ai: What do you mean by that?
+08/12/2025, 2:43 pm - Nishit Sir Internship Kibbs Ai: Yes not needed right now!
+08/12/2025, 2:44 pm - I am Charan: other_assumptions.currency_fluctuation
+08/12/2025, 2:44 pm - I am Charan: can i comment out all the code using GDP
+08/12/2025, 2:45 pm - I am Charan: class Inflation(StatusMixin, TimeStampedModel):
+    euros = models.FloatField()
+    india_inflation = models.FloatField(
+        help_text="Percentage value (e.g., 6.5 for 6.5%)"
+    )
+    usa_inflation = models.FloatField(
+        "USA Inflation", help_text="Percentage value (e.g., 3.2 for 3.2%)"
+    )
+    # exchange_rate_usd = models.FloatField()
+    # currency_fluctuation = models.FloatField(
+    #     help_text="Percentage value (e.g., 2.0 for 2%)"
+    # )
+08/12/2025, 2:45 pm - Nishit Sir Internship Kibbs Ai: YEs
+08/12/2025, 3:38 pm - Nishit Sir Internship Kibbs Ai: currency_fluctuation is depreciation rate for USD currency
+08/12/2025, 4:36 pm - Nishit Sir Internship Kibbs Ai: 
+08/12/2025, 4:36 pm - Nishit Sir Internship Kibbs Ai: <Media omitted>
+08/12/2025, 4:36 pm - Nishit Sir Internship Kibbs Ai: <Media omitted>
+08/12/2025, 4:37 pm - I am Charan: i think you have to change it in your local db 
+
+i will check on deployed version
+08/12/2025, 4:37 pm - Nishit Sir Internship Kibbs Ai: Its on prod.
+08/12/2025, 4:37 pm - Nishit Sir Internship Kibbs Ai: Its hard coded in frontend
+08/12/2025, 4:38 pm - I am Charan: i never do hard coding sir i wll check and update you
+08/12/2025, 4:39 pm - Nishit Sir Internship Kibbs Ai: Bro not you but other people did.
+08/12/2025, 4:40 pm - Nishit Sir Internship Kibbs Ai: Please update it. Since you have fetched from frontend
+08/12/2025, 4:40 pm - I am Charan: yeah i will do it
+08/12/2025, 5:00 pm - I am Charan: in main we have otherAssumptions 
+in fix/excel we don't have otherAssumptions and it was renamed
+
+and this will cause conflicts in future and now
+
+not only this many models are not consistent with main branch
+
+if we continue with the same may be  we will be facing lot of issues later
+08/12/2025, 5:01 pm - I am Charan: @⁨Nishit Sir Internship Kibbs Ai⁩ please once verify it
+08/12/2025, 5:21 pm - Nishit Sir Internship Kibbs Ai: We need to fix model issues all at once
+08/12/2025, 5:22 pm - Nishit Sir Internship Kibbs Ai: It’s a one Time thing
+08/12/2025, 5:23 pm - Nishit Sir Internship Kibbs Ai: We can’t have models with wrong names and wrong data
+08/12/2025, 5:39 pm - I am Charan: shall we have a voice call sir
+08/12/2025, 5:40 pm - I am Charan: if we follow this we have change our db and migrate between main and fix/excel
+08/12/2025, 6:05 pm - Nishit Sir Internship Kibbs Ai: Sure
+08/12/2025, 6:33 pm - I am Charan: how to raise a pr
+
+main  -> feat/excel-design
+or 
+feat/excel -> feat/excel-design
+08/12/2025, 6:34 pm - Nishit Sir Internship Kibbs Ai: fix/excel -> feat/excel-design
+08/12/2025, 6:39 pm - I am Charan: https://github.com/KIPPS-AI/personal_financial_planner/pull/91
+changed the financial plan table
+09/12/2025, 11:59 am - You pinned a message
+09/12/2025, 12:15 pm - I am Charan: here the pr for financial plan once review it @⁨Nishit Sir Internship Kibbs Ai⁩  sir
+09/12/2025, 12:21 pm - I am Charan: https://github.com/KIPPS-AI/personal_financial_planner/pull/93
+https://github.com/KIPPS-AI/personal_financial_planner/pull/92
+09/12/2025, 12:21 pm - I am Charan: please merge these and give me next task
+09/12/2025, 12:22 pm - Nishit Sir Internship Kibbs Ai: <Media omitted>
+09/12/2025, 12:22 pm - Nishit Sir Internship Kibbs Ai: take pull of fix/excel
+09/12/2025, 12:22 pm - I am Charan: does it merged?
+09/12/2025, 12:24 pm - Nishit Sir Internship Kibbs Ai: Yes
+09/12/2025, 12:26 pm - Nishit Sir Internship Kibbs Ai: Merged
+09/12/2025, 12:30 pm - I am Charan: <Media omitted>
+09/12/2025, 12:31 pm - Nishit Sir Internship Kibbs Ai: Cool works
+09/12/2025, 12:32 pm - I am Charan: one small suggestion :
+
+after chnaing something do i have to generate excel again and again for every change 
+or any simple thing to checkout wiithout downloading again
+09/12/2025, 12:33 pm - Nishit Sir Internship Kibbs Ai: Best will be to regenerate. But Once you have complete a table you test it by regenerating
+09/12/2025, 12:34 pm - Nishit Sir Internship Kibbs Ai: after seeing the table RetirementVolatileAllocation has the same fields
+09/12/2025, 12:35 pm - Nishit Sir Internship Kibbs Ai: Can you rename RetirementVolatileAllocation to GlobalVolatilityComponent everywhere in code as well?
+09/12/2025, 12:35 pm - Nishit Sir Internship Kibbs Ai: Same for fields
+09/12/2025, 12:36 pm - I am Charan: okay i will do 
+do i  have to remove the RetirementVolatileAllocation  totally?
+09/12/2025, 12:37 pm - Nishit Sir Internship Kibbs Ai: Yes fields name is wrong
+09/12/2025, 12:45 pm - I am Charan: some of the serialisers classes uses this name RetirementVolatileAllocationSerializer
+09/12/2025, 12:45 pm - I am Charan: like this there will be many components using this name strucuture
+09/12/2025, 12:46 pm - I am Charan: and GlobalVolatilityComponent is not using any where in the code so is it better to remove this component?
+09/12/2025, 12:51 pm - Nishit Sir Internship Kibbs Ai: Bro naming is wrong you just need to replace the field and model name
+09/12/2025, 12:51 pm - Nishit Sir Internship Kibbs Ai: I don’t think it should be a issue
+09/12/2025, 12:51 pm - I am Charan: Okay
+09/12/2025, 12:53 pm - Nishit Sir Internship Kibbs Ai: I have pushed all the model changes
+09/12/2025, 12:53 pm - Nishit Sir Internship Kibbs Ai: <Media omitted>
+09/12/2025, 12:53 pm - Nishit Sir Internship Kibbs Ai: <Media omitted>
+09/12/2025, 12:54 pm - Nishit Sir Internship Kibbs Ai: <Media omitted>
+09/12/2025, 12:54 pm - Nishit Sir Internship Kibbs Ai: <Media omitted>
+09/12/2025, 12:54 pm - Nishit Sir Internship Kibbs Ai: <Media omitted>
+09/12/2025, 1:40 pm - I am Charan: https://github.com/KIPPS-AI/personal_financial_planner/pull/94
+updated model
+09/12/2025, 2:42 pm - Nishit Sir Internship Kibbs Ai: Merged . Please let me know whats the update on above tables?
+09/12/2025, 2:43 pm - I am Charan: completed ROI table
+09/12/2025, 2:43 pm - Nishit Sir Internship Kibbs Ai: Nice bro.!
+09/12/2025, 2:43 pm - I am Charan: i will raise pr and quickly complete following
+09/12/2025, 2:43 pm - Nishit Sir Internship Kibbs Ai: Complete all the above table and raise PR.
+09/12/2025, 2:43 pm - Nishit Sir Internship Kibbs Ai: We will complete chart and risk profile thing too
+09/12/2025, 3:29 pm - I am Charan: <Media omitted>
+09/12/2025, 3:30 pm - Nishit Sir Internship Kibbs Ai: Please check the order and Column it should start from
+09/12/2025, 3:48 pm - I am Charan: <Media omitted>
+09/12/2025, 3:49 pm - Nishit Sir Internship Kibbs Ai: Yes above all is fine. Please check if country_name is present inside all or not? Along with inflation rate
+09/12/2025, 3:50 pm - I am Charan: what to show if country name not available .
+09/12/2025, 3:50 pm - I am Charan: show the name if country name not available?
+09/12/2025, 3:50 pm - Nishit Sir Internship Kibbs Ai: It will be required
+09/12/2025, 3:50 pm - Nishit Sir Internship Kibbs Ai: Country name will always be present.
+09/12/2025, 3:54 pm - I am Charan: i will follow the column q and dynamically decide the row for the table start based on previous row 
+as some times no of rows in each table may vary
+09/12/2025, 3:55 pm - Nishit Sir Internship Kibbs Ai: Bro its not about the row. Its about the column
+09/12/2025, 3:55 pm - I am Charan: okay then fine i am following same column as master sheet
+09/12/2025, 3:56 pm - Nishit Sir Internship Kibbs Ai: !
+09/12/2025, 6:25 pm - Nishit Sir Internship Kibbs Ai: @⁨I am Charan⁩ Whats the update?
+09/12/2025, 6:26 pm - I am Charan: Updated the tables and got a problem with width of cells I am fixing it
+09/12/2025, 6:26 pm - I am Charan: You can give me next tasks I will complete them tonight
+09/12/2025, 6:27 pm - Nishit Sir Internship Kibbs Ai: <Media omitted>
+09/12/2025, 6:28 pm - I am Charan: No, I will do this now
+09/12/2025, 6:48 pm - Nishit Sir Internship Kibbs Ai: <Media omitted>
+09/12/2025, 6:48 pm - I am Charan: okay what about that red line
+09/12/2025, 6:49 pm - Nishit Sir Internship Kibbs Ai: <Media omitted>
+09/12/2025, 6:50 pm - Nishit Sir Internship Kibbs Ai: X’s score will show the total score and Y’s score is empty. and Wt. score is again the same total score
+09/12/2025, 6:52 pm - Nishit Sir Internship Kibbs Ai: <Media omitted>
+09/12/2025, 6:52 pm - Nishit Sir Internship Kibbs Ai: stable here is 100-volatile %
+09/12/2025, 6:54 pm - I am Charan: not understood this line
+09/12/2025, 6:54 pm - Nishit Sir Internship Kibbs Ai: In row above “Comment Pls read” in image <This message was edited>
+10/12/2025, 10:16 am - Nishit Sir Internship Kibbs Ai: @⁨I am Charan⁩ what’s the update ?
+10/12/2025, 10:17 am - I am Charan: done all the page and pushed in the pr
+10/12/2025, 10:17 am - Nishit Sir Internship Kibbs Ai: Page ?
+10/12/2025, 10:17 am - Nishit Sir Internship Kibbs Ai: Means all tables ?
+10/12/2025, 10:17 am - I am Charan: but the 3d images are not looking as expected
+10/12/2025, 10:17 am - Nishit Sir Internship Kibbs Ai: Can you share the screenshot
+10/12/2025, 10:17 am - I am Charan: <Media omitted>
+10/12/2025, 10:18 am - Nishit Sir Internship Kibbs Ai: Ok let’s complete table on the left
+10/12/2025, 10:18 am - I am Charan: okay shall we have a meet of how to complete it? and where to fetch the data!
+10/12/2025, 10:50 am - Nishit Sir Internship Kibbs Ai: Table on the left is a aspiration data
+10/12/2025, 10:50 am - Nishit Sir Internship Kibbs Ai: There are categories under which we have the data
+10/12/2025, 12:40 pm - I am Charan: <Media omitted>
+10/12/2025, 12:44 pm - I am Charan: <Media omitted>
+10/12/2025, 1:30 pm - Nishit Sir Internship Kibbs Ai: Above table is income section
+10/12/2025, 1:31 pm - Nishit Sir Internship Kibbs Ai: And entity is type
+10/12/2025, 1:31 pm - Nishit Sir Internship Kibbs Ai: Below is the expenses
+10/12/2025, 2:56 pm - I am Charan: done expenses and income tables
+10/12/2025, 2:56 pm - I am Charan: <Media omitted>
+10/12/2025, 2:58 pm - I am Charan: <Media omitted>
+10/12/2025, 3:01 pm - Nishit Sir Internship Kibbs Ai: Ok
+10/12/2025, 3:01 pm - Nishit Sir Internship Kibbs Ai: Please raise a pr
+10/12/2025, 3:03 pm - Nishit Sir Internship Kibbs Ai: Is aspiration table also done ?
+10/12/2025, 3:03 pm - I am Charan: https://github.com/KIPPS-AI/personal_financial_planner/pull/95
+
+i have pushed all the code in this pr
+10/12/2025, 3:04 pm - I am Charan: <Media omitted>
+10/12/2025, 3:04 pm - I am Charan: <Media omitted>
+10/12/2025, 3:05 pm - I am Charan: <Media omitted>
+10/12/2025, 3:05 pm - I am Charan: <Media omitted>
+10/12/2025, 3:05 pm - I am Charan: <Media omitted>
+10/12/2025, 3:05 pm - I am Charan: except 3d images i think i have done all the tables
+10/12/2025, 3:06 pm - Nishit Sir Internship Kibbs Ai: Is it an image or graph ?
+10/12/2025, 3:07 pm - I am Charan: pie = PieChart3D()
+        pie.title = "MACRO LEVEL ASSET ALLOCATION"
+
+        labels = Reference(sh, min_col=11, min_row=chart_row+1, max_row=chart_row+2)
+        data = Reference(sh, min_col=12, min_row=chart_row, max_row=chart_row+2)
+
+        pie.add_data(data, titles_from_data=True)
+        pie.set_categories(labels)
+        pie.width = 14
+        pie.height = 10
+
+        sh.add_chart(pie, f"Z{chart_row}")
+
+graph
+10/12/2025, 3:07 pm - I am Charan: adding with add_chart()
+10/12/2025, 3:08 pm - Nishit Sir Internship Kibbs Ai: Ok
+10/12/2025, 3:09 pm - Nishit Sir Internship Kibbs Ai: Can you take shade of blue color
+10/12/2025, 3:10 pm - I am Charan: Are you saying to remove the blue colour?
+10/12/2025, 3:17 pm - Nishit Sir Internship Kibbs Ai: No in chart
+10/12/2025, 3:17 pm - Nishit Sir Internship Kibbs Ai: It’s showing red
+10/12/2025, 3:21 pm - I am Charan: I tried to put those colours but getting depreciation issues I will try again now
+10/12/2025, 3:21 pm - I am Charan: And update you
+10/12/2025, 5:24 pm - Nishit Sir Internship Kibbs Ai: Hey @⁨I am Charan⁩ let me know if you have any doubt
+10/12/2025, 6:24 pm - I am Charan: <Media omitted>
+10/12/2025, 6:26 pm - Nishit Sir Internship Kibbs Ai: Why 70% and 30% are shown 2 times?
+10/12/2025, 6:26 pm - Nishit Sir Internship Kibbs Ai: And remove “,” at the very start
+10/12/2025, 6:26 pm - I am Charan: yeah i will defently change them .
+10/12/2025, 6:26 pm - I am Charan: if the strucutre of pie chart was acceptable
+10/12/2025, 6:28 pm - Nishit Sir Internship Kibbs Ai: Yes work
+10/12/2025, 6:54 pm - I am Charan: pushed the code
+10/12/2025, 7:01 pm - I am Charan: <Media omitted>
+11/12/2025, 11:11 am - I am Charan: @⁨Nishit Sir Internship Kibbs Ai⁩  good morning whats today taks please assign i will complete it
+11/12/2025, 11:12 am - Nishit Sir Internship Kibbs Ai: Can we do our standup now?
+11/12/2025, 11:12 am - I am Charan: okay
+11/12/2025, 11:13 am - Nishit Sir Internship Kibbs Ai: https://meet.google.com/kgj-ijqc-jgu
+11/12/2025, 11:16 am - Nishit Sir Internship Kibbs Ai: Here
+11/12/2025, 2:24 pm - Nishit Sir Internship Kibbs Ai: @⁨I am Charan⁩ Any update on above table?
+11/12/2025, 2:25 pm - I am Charan: i have improved some of the client profile 
+and added global volatile table
+changed the header colour of roi table
+added total column for the aspiration table as it was missing in yesterday developemtn
+11/12/2025, 2:49 pm - I am Charan: <Media omitted>
+11/12/2025, 2:59 pm - Nishit Sir Internship Kibbs Ai: Fine for now. It just that we need to show Currency because some might be in USD, INR or any other
+11/12/2025, 3:00 pm - I am Charan: <Media omitted>
+11/12/2025, 3:00 pm - Nishit Sir Internship Kibbs Ai: Its a aspiration category
+11/12/2025, 3:01 pm - I am Charan: <Media omitted>
+11/12/2025, 3:01 pm - I am Charan: contigency corpus year <This message was edited>
+11/12/2025, 3:07 pm - Nishit Sir Internship Kibbs Ai: Its the start and end year of education
+11/12/2025, 3:07 pm - Nishit Sir Internship Kibbs Ai: It will be taken from parental aspiration
+11/12/2025, 3:22 pm - I am Charan: what if we have more than one parential aspiration
+11/12/2025, 3:23 pm - Nishit Sir Internship Kibbs Ai: Yes There will be more then 1
+11/12/2025, 3:23 pm - Nishit Sir Internship Kibbs Ai: Whats the problem?
+11/12/2025, 3:24 pm - I am Charan: then i would get more start and end years
+11/12/2025, 3:24 pm - Nishit Sir Internship Kibbs Ai: There will be for 1 aspiration
+11/12/2025, 3:24 pm - I am Charan: <Media omitted>
+11/12/2025, 3:25 pm - Nishit Sir Internship Kibbs Ai: There can be multiple table
+11/12/2025, 3:25 pm - I am Charan: okay
+11/12/2025, 3:27 pm - Nishit Sir Internship Kibbs Ai: Above table is for multiple years involved
+11/12/2025, 3:27 pm - Nishit Sir Internship Kibbs Ai: <Media omitted>
+11/12/2025, 3:27 pm - Nishit Sir Internship Kibbs Ai: In this parental and others sheet is the same. We need it same.
+11/12/2025, 3:33 pm - I am Charan: okay so all the parentail aspiration should apper in this sheet
+11/12/2025, 3:49 pm - Nishit Sir Internship Kibbs Ai: <Media omitted>
+11/12/2025, 3:49 pm - Nishit Sir Internship Kibbs Ai: Make sure you add all of them.
+11/12/2025, 3:51 pm - Nishit Sir Internship Kibbs Ai: Also make sure to show that “amount(in annually)” at all the places in financial details page
+11/12/2025, 3:51 pm - I am Charan: where to add it?
+in django admin portal db?
+11/12/2025, 3:51 pm - Nishit Sir Internship Kibbs Ai: Yes.
+11/12/2025, 3:51 pm - I am Charan: in both production and my local right?
+12/12/2025, 11:19 am - Nishit Sir Internship Kibbs Ai: Yes.
+12/12/2025, 11:19 am - Nishit Sir Internship Kibbs Ai: Hey @⁨I am Charan⁩ Any update ?
+12/12/2025, 11:20 am - I am Charan: <Media omitted>
+12/12/2025, 11:20 am - I am Charan: and completed 2 given tables and fetching the values dynamcially from the excel sheet
+12/12/2025, 11:21 am - I am Charan: and i want you to review my code and any problems may arise in future
+12/12/2025, 11:30 am - Nishit Sir Internship Kibbs Ai: Can you share the PR?
+12/12/2025, 11:30 am - I am Charan: <Media omitted>
+12/12/2025, 11:31 am - I am Charan: i will share in just a minute
+12/12/2025, 11:34 am - I am Charan: https://github.com/KIPPS-AI/personal_financial_planner/pull/96/
+12/12/2025, 12:05 pm - Nishit Sir Internship Kibbs Ai: Please join the standup
+12/12/2025, 12:05 pm - I am Charan: ok
+12/12/2025, 12:13 pm - Nishit Sir Internship Kibbs Ai: <Media omitted>
+12/12/2025, 12:16 pm - Nishit Sir Internship Kibbs Ai: <Media omitted>
+12/12/2025, 12:19 pm - I am Charan: ..
+12/12/2025, 12:20 pm - I am Charan: <Media omitted>
+12/12/2025, 12:22 pm - I am Charan: <Media omitted>
+12/12/2025, 1:12 pm - Nishit Sir Internship Kibbs Ai: @⁨I am Charan⁩ We don’t need below table
+12/12/2025, 1:12 pm - Nishit Sir Internship Kibbs Ai: Only table we need is table 1
+12/12/2025, 1:14 pm - Nishit Sir Internship Kibbs Ai: Because in table 2 there is major issue
+12/12/2025, 1:15 pm - Nishit Sir Internship Kibbs Ai: We are not considering currency.
+12/12/2025, 1:24 pm - Nishit Sir Internship Kibbs Ai: @⁨I am Charan⁩ Lets complete the expense thing. Because that is final. 
+
+“Pre Retirement”, “Post Retirement”, “Both”
+12/12/2025, 1:24 pm - I am Charan: Okay
+12/12/2025, 1:24 pm - I am Charan: Okay I'll complete it
+12/12/2025, 2:19 pm - I am Charan: <Media omitted>
+12/12/2025, 2:19 pm - I am Charan: or need changes
+12/12/2025, 2:20 pm - Nishit Sir Internship Kibbs Ai: No
+12/12/2025, 2:20 pm - Nishit Sir Internship Kibbs Ai: There will be no name field
+12/12/2025, 2:20 pm - Nishit Sir Internship Kibbs Ai: And if you are putting like this
+12/12/2025, 2:20 pm - Nishit Sir Internship Kibbs Ai: Remove both
+12/12/2025, 2:21 pm - I am Charan: okay i will remove name and both
+12/12/2025, 2:21 pm - Nishit Sir Internship Kibbs Ai: Cool
+12/12/2025, 3:24 pm - I am Charan: Internal Server Error: /api/v1/client/
+[12/Dec/2025 15:23:55] "GET /api/v1/client/?id=387e4716-af34-4414-9d86-91928d8f313f&data=futures&is_edit=true HTTP/1.1" 500 80
+[12/Dec/2025 15:23:55] "GET /api/v1/onboarding/choices/ HTTP/1.1" 200 1945
+
+how to see what is the errro
+12/12/2025, 3:52 pm - Nishit Sir Internship Kibbs Ai: Where you are getting this error ?
+12/12/2025, 3:52 pm - Nishit Sir Internship Kibbs Ai: On local or prod ?
+12/12/2025, 3:52 pm - I am Charan: Local
+12/12/2025, 3:52 pm - I am Charan: How to see error message
+12/12/2025, 3:52 pm - Nishit Sir Internship Kibbs Ai: Print log
+12/12/2025, 3:53 pm - Nishit Sir Internship Kibbs Ai: On local you should be easily do it
+12/12/2025, 3:53 pm - Nishit Sir Internship Kibbs Ai: Check response tab
+12/12/2025, 3:57 pm - I am Charan: <Media omitted>
+12/12/2025, 3:57 pm - I am Charan: <Media omitted>
+12/12/2025, 3:57 pm - I am Charan: i am getting have this only but not saying where is the error and how to trace it
+12/12/2025, 3:57 pm - Nishit Sir Internship Kibbs Ai: Print error
+12/12/2025, 4:38 pm - I am Charan: after changing the Expense model i am getting lot of error as .name and .amount is accessing
+12/12/2025, 4:38 pm - I am Charan: do i have to check each and every line of all files to make sure everything updated or any easy way
+12/12/2025, 4:40 pm - I am Charan: and editings causing issues weather to replace amount with pre_retirement_amount or post_retirement_amount or keep 0
+
+and same for name what to replace the expense.name with <This message was edited>
+12/12/2025, 4:42 pm - Nishit Sir Internship Kibbs Ai: Ok
+12/12/2025, 4:42 pm - Nishit Sir Internship Kibbs Ai: What do you suggest?
+12/12/2025, 4:43 pm - I am Charan: i don't know i think 
+checking and changing all files is the only way
+12/12/2025, 4:44 pm - Nishit Sir Internship Kibbs Ai: Got it.
+12/12/2025, 4:44 pm - I am Charan: or else we keep name and amount just as a legacy 
+and keep updating the pre and post retirement amounts so for now we don't get any error 
+but its not the good way
+12/12/2025, 4:44 pm - Nishit Sir Internship Kibbs Ai: Lets do it
+12/12/2025, 4:44 pm - I am Charan: this?
+12/12/2025, 4:46 pm - Nishit Sir Internship Kibbs Ai: No
