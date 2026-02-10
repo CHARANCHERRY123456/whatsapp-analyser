@@ -1,6 +1,7 @@
 import google.generativeai as genai
 import os
-genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
+# genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
+genai.configure(api_key="AIzaSyD9jY2lqtNa1DiGuP2xzXWummKKvSJpbo0")
 
 
 class Gemini:
