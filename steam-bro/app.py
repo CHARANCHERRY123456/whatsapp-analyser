@@ -16,8 +16,8 @@ if uploaded_file is not None:
     data = bytes_data.decode("utf-8")
 
     df = preprocessor.preprocess(data)
-    rag = RAG((list(zip(df["user"].to_list() , df["message"].to_list() , df["date"].to_list() ))))
-    rag.ask_query("what is this chat about?")
+    # rag = RAG((list(zip(df["user"].to_list() , df["message"].to_list() , df["date"].to_list() ))))
+    # rag.ask_query("what is this chat about?")
     st.dataframe(df)
 
     # fetching unique users
