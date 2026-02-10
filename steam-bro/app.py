@@ -4,6 +4,16 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from rag_src.main import RAG
 
+# Initialize session state for chat messages
+if "messages" not in st.session_state:
+    st.session_state.messages = []
+
+# Cache RAG initialization to avoid rebuilding on reruns
+@st.cache_resource
+def initialize_rag(df):
+    """Initialize RAG system from dataframe"""
+    data = list(zip(df["user"].to_list(), df["message"].to_list(), df["date"].to_list()))
+    return RAG(data)
 
 st.sidebar.title("Whats app analyser")
 
@@ -16,8 +26,18 @@ if uploaded_file is not None:
     data = bytes_data.decode("utf-8")
 
     df = preprocessor.preprocess(data)
-    # rag = RAG((list(zip(df["user"].to_list() , df["message"].to_list() , df["date"].to_list() ))))
-    # rag.ask_query("what is this chat about?")
+    
+    # Initialize RAG (cached) and store in session state
+    if "rag" not in st.session_state or st.session_state.get("rag_file") != uploaded_file.name:
+        with st.spinner("Initializing RAG system..."):
+            st.session_state.rag = initialize_rag(df)
+            st.session_state.rag_file = uploaded_file.name
+        st.success("✅ RAG system ready!")
+    else:
+        st.info("✅ RAG system ready!")
+    
+    rag = st.session_state.rag
+    
     st.dataframe(df)
 
     # fetching unique users
@@ -151,4 +171,51 @@ if uploaded_file is not None:
         with col2:
             fig , ax = plt.subplots()
             ax.pie(emoji_df[1].head() , labels=emoji_df[0].head() , autopct="%0.2f" )
-            st.pyplot(fig)            
+            st.pyplot(fig)
+    
+    # Chat with RAG section in sidebar
+    st.sidebar.markdown("---")
+    st.sidebar.title("💬 Chat with RAG")
+    
+    # Display chat history in sidebar
+    if st.session_state.messages:
+        st.sidebar.markdown("**Chat History:**")
+        for message in st.session_state.messages[-5:]:  # Show last 5 messages
+            role_icon = "👤" if message["role"] == "user" else "🤖"
+            st.sidebar.markdown(f"{role_icon} **{message['role'].title()}:**")
+            # Show full message
+            st.sidebar.write(message["content"])
+            st.sidebar.markdown("---")
+    
+    # Chat input in sidebar
+    user_query = st.sidebar.text_input("Ask a question about your chat:", key="chat_input")
+    
+    if st.sidebar.button("Send", key="send_button"):
+        if user_query:
+            # Add user message to chat history
+            st.session_state.messages.append({"role": "user", "content": user_query})
+            
+            # Get response from RAG
+            try:
+                with st.spinner("Thinking..."):
+                    answer = rag.ask_query(user_query)
+                    st.session_state.messages.append({"role": "assistant", "content": answer})
+                st.sidebar.success("Response received!")
+                st.rerun()  # Rerun to show the new message
+            except Exception as e:
+                # Print error to console for debugging
+                import traceback
+                print(f"RAG Error: {str(e)}")
+                traceback.print_exc()
+                
+                # Show detailed error to user
+                error_msg = f"Sorry, I encountered an error: {str(e)}"
+                st.session_state.messages.append({"role": "assistant", "content": error_msg})
+                st.sidebar.error(f"Error: {str(e)}")
+                st.rerun()  # Rerun to show the error message
+    
+    # Clear chat button
+    if st.sidebar.button("Clear Chat History"):
+        st.session_state.messages = []
+        st.sidebar.success("Chat history cleared!")
+        st.rerun()            

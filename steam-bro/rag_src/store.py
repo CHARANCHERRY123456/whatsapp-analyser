@@ -2,7 +2,15 @@ import chromadb
 class ChromaStore:
     def __init__(self) -> None:
         self.client = chromadb.Client()
-        self.col = self.client.create_collection(name="documents")
+        # Use get_or_create_collection to avoid errors if collection already exists
+        try:
+            self.col = self.client.get_collection(name="documents")
+            # Clear existing collection if it exists (optional - remove if you want to keep old data)
+            self.client.delete_collection(name="documents")
+            self.col = self.client.create_collection(name="documents")
+        except:
+            # Collection doesn't exist, create it
+            self.col = self.client.create_collection(name="documents")
     def add_embeddings(self, embeddings, metadatas=None):
         self.col.add(
             ids = list(map(str, range(len(embeddings)))),
