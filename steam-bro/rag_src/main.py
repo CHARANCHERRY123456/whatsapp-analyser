@@ -50,15 +50,49 @@ class RAG:
 
 
 
-    def _build_prompt(self,query , top_k_embeds):
+    def _build_prompt(self, query, top_k_results):
+        """
+        Build prompt with retrieved context from ChromaDB.
+        Extract actual text content from the retrieved chunks.
+        """
+        # Extract text content from retrieved chunks
+        # ChromaDB returns: {'ids': [[...]], 'metadatas': [[{...}]], 'documents': [[...]], 'distances': [[...]]}
+        retrieved_contexts = []
         
-        prompt = "I am performing a rag based applicaiton and you are my llm agent i will provide what is the user query or question " \
-         "and i will also provide you the related content which performed with embedding and getting top k related data" \
-         "the user basically upload his whatsapp chat it may be group or personal chat and he/she will ask the question" \
-         "so that we have to reply the answer so that user should highly satisfied and even if you don' get you say entertain the user " \
-         "without giving the wrong information" \
-         "you have to give a small simple answer i will directly provide the user and your answer should not include any thinking jsut a reply to user should here" \
-         "don't even say i see history , i have did this , did that don't never expose the internal llm things just give the answer for quesiton and abstract the process" \
-         f"here i am attaching the query =  {query} emeddings = {top_k_embeds}"
+        # Try to get text from metadatas first (we stored it there)
+        if top_k_results and 'metadatas' in top_k_results and top_k_results['metadatas']:
+            for metadata_list in top_k_results['metadatas']:
+                if metadata_list:  # Check if list is not empty
+                    for metadata in metadata_list:
+                        if isinstance(metadata, dict) and 'text' in metadata:
+                            retrieved_contexts.append(metadata['text'])
+        
+        # If no text in metadatas, try documents field
+        if not retrieved_contexts and top_k_results and 'documents' in top_k_results and top_k_results['documents']:
+            for doc_list in top_k_results['documents']:
+                if doc_list:
+                    retrieved_contexts.extend(doc_list)
+        
+        # Format the retrieved contexts
+        if retrieved_contexts:
+            context_text = "\n\n---\n\n".join(retrieved_contexts[:5])  # Limit to top 5 chunks
+        else:
+            context_text = "No relevant context found in the chat history."
+        
+        prompt = f"""You are an AI assistant helping users understand their WhatsApp chat history.
+
+User Question: {query}
+
+Relevant Chat Context (retrieved from chat history):
+{context_text}
+
+Instructions:
+- Answer the user's question based ONLY on the provided chat context above
+- If the context doesn't contain relevant information, say "I couldn't find that information in the chat history"
+- Give a clear, concise answer without mentioning that you're using RAG or embeddings
+- Don't make up information that's not in the context
+- Keep your answer natural and conversational
+
+Answer:"""
         
         return prompt
