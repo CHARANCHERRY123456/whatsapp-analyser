@@ -21,12 +21,25 @@ class RAG:
         self.store = ChromaStore()
         self.store.add_embeddings(self.embeddings ,self.metadatas)
 
-    def ask_query(self,query):
-        embedq = embed(list(query))
-        topk = self.store.query(embedq)
-        prompt = self._build_prompt(query , topk)
+    def ask_query(self, query):
+        """
+        Embed the full query string once and send a single 1D embedding vector
+        (list of floats) to ChromaDB.
+        """
+        # embed() expects a list[str]; it returns a 2D array: shape (1, D)
+        query_embeddings = embed([query])
+
+        # Take the first (and only) embedding: shape (D,)
+        query_embedding = query_embeddings[0]
+
+        # If it's a numpy array, convert to a plain Python list[float]
+        if hasattr(query_embedding, "tolist"):
+            query_embedding = query_embedding.tolist()
+
+        # Now pass a single embedding vector to the store
+        topk = self.store.query(query_embedding)
+        prompt = self._build_prompt(query, topk)
         answer = self.llm.ask_gemini(prompt)
-        print(answer)
         return answer
 
 
