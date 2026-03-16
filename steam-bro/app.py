@@ -22,7 +22,7 @@ uploaded_file = st.sidebar.file_uploader("Upload new chat")
 cached_chats = list_cached_chats()
 history_choice = st.sidebar.selectbox(
     "Or load a previous chat",
-    ["(none)"] + cached_chats,
+    ["Select"] + cached_chats,
 )
 
 df_active = None
@@ -46,7 +46,7 @@ if uploaded_file is not None:
     active_name = uploaded_file.name
 
 # Case 2: no new upload, but user picked from history
-elif history_choice != "(none)":
+elif history_choice != "Select":
     df_hist = load_chat_df(history_choice)
     if df_hist is not None:
         df_active = df_hist
