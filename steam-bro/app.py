@@ -1,5 +1,6 @@
 """Main Streamlit app for WhatsApp Chat Analyzer"""
 import streamlit as st
+from pathlib import Path
 import preprocessor
 from utils.rag_utils import setup_rag
 from views.analysis_view import render_analysis_view
@@ -20,13 +21,19 @@ if uploaded_file is not None:
     bytes_data = uploaded_file.getvalue()
     data = bytes_data.decode("utf-8")
     df = preprocessor.preprocess(data)
-    
+
+    # Ensure cache directory exists (relative to this file)
+    cache_dir = Path(__file__).parent / "cache"
+    cache_dir.mkdir(exist_ok=True)
+    # Save DataFrame using the uploaded file name
+    df.to_pickle(cache_dir / f"{uploaded_file.name}.pkl")
+
     # Setup RAG
     rag = setup_rag(df, uploaded_file.name)
-    
+
     # Render view toggle buttons
     render_view_toggle()
-    
+
     # Main content area - switch between views
     if st.session_state.view == "analysis":
         render_analysis_view(df)
