@@ -13,6 +13,9 @@ class TimeSlicer:
             curr_time = data[i][2]
             time_diff = curr_time - prev_time
             if time_diff <= self.gap_minutes:
+                if len(current_slice) > 5:
+                    slices.append(current_slice)
+                    current_slice = []
                 current_slice.append(data[i])
             else:
                 slices.append(current_slice)

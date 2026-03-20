@@ -31,7 +31,7 @@ class RAG:
         """
 
         # Now pass a single embedding vector to the store
-        topk = self.pinecone_store.query(query)
+        topk = self.pinecone_store.query(query , 10)
         prompt = self._build_prompt(query, topk)
         answer = self.llm.ask_gemini(prompt)
         return answer
